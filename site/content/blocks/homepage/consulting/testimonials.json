@@ -1,0 +1,215 @@
+{
+  "text": [
+    {
+      "text": "Grow Your Business and Join Our Happy Users",
+      "variant": "h2",
+      "style": {
+        "width": "10px"
+      }
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Juuso Peltola",
+          "variant": "h5"
+        },
+        {
+          "text": "CEO",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Sed commodo, est quis maximus fermentum, massa ipsum euismod neque, in varius risus tellus quis lacus. Sed ac bibendum odio."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/florrie-jacobs-large.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Intolerance Testing",
+          "variant": "h5"
+        },
+        {
+          "text": "CEO",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Their system is awesome. There is no other place anywhere where one can find so many options and control settings to send out email campaigns"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Zito Calderon",
+          "variant": "h5"
+        },
+        {
+          "text": "CEO",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Greatest mailing app you'll ever need! Drip/trigger function are amazing. Superb support. Hands down the best mailing app I ever used."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/alex-jones.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Zach Miller",
+          "variant": "h5"
+        },
+        {
+          "text": "CEO",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "First, the Mumara team is incredibly professional, responsive, and reliable. Their CEO has even gone out of his way to help me on multiple occasions."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/alex-jones-large.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Gulam Gaus W",
+          "variant": "h5"
+        },
+        {
+          "text": "Marketing Specialist",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Mumara Campaigns + is a very effective and easy-to-use platform for marketing emails. It comes with a lot of features such as multiple SMTP"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/john-doe-large.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Patricia O",
+          "variant": "h5"
+        },
+        {
+          "text": "Small-Business",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Mumara Campaigns is the best email marketing software. Mumara Campaigns optimizes the online advertising and subscription processes"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/jane-smith.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "John Smith",
+          "variant": "h5"
+        },
+        {
+          "text": "SIM Marketing",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "I’ve tried for a long to find a suitable front end management application for my servers, running PowerMTA. I’ve tried several combinations."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/steve-grant-large.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Kelly McCarthy",
+          "variant": "h5"
+        },
+        {
+          "text": "Global Solutions",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "I actually handpicked MUMARA after discussing with several companies. And it is due to the flexible pricing model that MUMARA offers."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/florrie-jacobs.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Michale Porter",
+          "variant": "h5"
+        },
+        {
+          "text": "Right Advertising",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Sed commodo, est quis maximus fermentum, massa ipsum euismod neque, in varius risus tellus quis lacus. Sed ac bibendum odio."
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/sarah-doe-large.png",
+        "alt": "alt text"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "User Review",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/0dhTw9o3Zfk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+      "variant": "secondary",
+      "images": [{
+              "src": "../../assets/flexiblocks/testimonials/john-doe.jpg",
+              "alt": "User Reviewt"
+            }]
+    },
+    {
+      "text": "User Review",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/LSbKI2Yx_d0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
+      "variant": "primary",
+      "images": [{
+          "src": "../../assets/flexiblocks/testimonials/john-doe.jpg",
+          "alt": "User Reviews"
+        }]
+    }
+  ]
+}

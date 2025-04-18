@@ -1,0 +1,59 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": ""
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/company-airbnb.svg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": ""
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/company-amazon-web-services.svg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": ""
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/company-shopify.svg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": ""
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/company-confluence.svg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": ""
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/company-linkedin.svg",
+        "alt": "alt text"
+      }
+    }
+  ]
+}

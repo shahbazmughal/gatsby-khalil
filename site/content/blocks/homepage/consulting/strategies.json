@@ -1,0 +1,78 @@
+  {
+    "text": [
+      {
+        "text": "Highlighted Featured",
+        "variant": "h2"
+      }
+    ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "REST API",
+          "color": "#2d3748",
+          "variant": "h5"
+        },
+        {
+          "text": "Relay emails directly from your website or the application using Mumara API.",
+          "color": "#2d3748"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/home/rest_api.jpg",
+        "bg": "white"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Webhooks",
+          "color": "#2d3748",
+          "variant": "h5"
+        },
+        {
+          "text": "Get instant delivery status notifications posted to your URL using Webhooks",
+          "color": "#2d3748"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/home/webhook.jpg",
+        "bg": "white"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Multi SMTP Creation",
+          "color": "#2d3748",
+          "variant": "h5"
+        },
+        {
+          "text": "Create multiple SMTP accounts for your multiple applications or staff members.",
+          "color": "#2d3748"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/home/multi-smtp.jpg",
+        "bg": "white"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Dedicated Pools",
+          "color": "#2d3748",
+          "variant": "h5"
+        },
+        {
+          "text": "Setup multiple dedicated pools of IP addresses for your multiple purposes.",
+          "color": "#2d3748"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/home/dedicated-pools.jpg",
+        "bg": "white"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "text": [
+    {
+      "text": "Exclusive Features",
+      "color": "white",
+      "variant": "h2"
+    },
+    {
+      "text": "Our team has spent hundreds of thousands of hours and working hard on a daily basis to make everything perfect for you. Your trust in us will never let you down.",
+      "color": "white"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "List Management",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Manage your contact lists, add/import contacts, store additional data.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Deep Segmentation",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Create segments of the contacts matching the desired criteria or based on similar engagements.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Automation",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Trigger automated newsletters/drips and other actions based on a number of events.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Subscription Forms",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Create subscription forms for your website and feed data to the contact lists.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Personalized Emailing",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Personalize your email content by adding the recipient’s profile fields and conditional content.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Dynamic Content Tags",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Create tags for the dynamic content units and add targeted content to your outgoing emails.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Realtime Analytics",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Get real-time analytics, graphical statistics, and logs of your campaigns & email deliveries.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Delivery Insights",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "View deep-level reporting of the delivery and detailed explanation.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Health Monitor",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Keep an eye on the health score of your account and individual IP addresses.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bxs-vial.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Blacklist Monitoring",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Keep the Sending Domain and IP reputation higher by daily automatic blacklist monitoring.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Reply Processor",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Connect your reply mailbox, view conversations, and make automated replies.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Future Scheduling",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Schedule a campaign today for a future time and stay relaxed.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Speed Throttling",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Send campaigns at your desired speed to obtain optimal results.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Contacts Synchronization",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Connect with your third-party accounts and synchronize your contacts with them.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-user.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Landing Pages",
+          "color": "white",
+          "variant": "h5"
+        },
+        {
+          "text": "Build your website and landing pages powered by Mumara, and connect them with the web forms to capture the leads.",
+          "color": "#a0aec0"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bxs-window-alt.svg",
+        "color": "#0f977e"
+      }
+    }
+  ]
+}

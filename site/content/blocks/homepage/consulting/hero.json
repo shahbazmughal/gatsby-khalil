@@ -1,0 +1,95 @@
+{
+  "text": [
+    {
+      "text": "Your Email Delivery means a Million Dollars to us!",
+      "variant": "h6"
+    },
+    {
+      "text": "Mumara ONE",
+      "variant": "h1"
+    },
+    {
+      "text": "You are just a few minutes away from scheduling your broadcast",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/home/homebanner1.jpg",
+      "alt": "Mumara Email Delivery",
+      "title": "Mumara Home",
+      "objectposition": "center bottom"
+    },
+    {
+      "src": "../../../assets/flexiblocks/home/homebanner3.jpg",
+      "alt": "Mumara ONE Country Chart",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "float"],
+      "position": {
+        "top": "4%",
+        "left": "0%"
+      }
+    },
+    {
+      "src": "../../../assets/flexiblocks/home/homebanner2.jpg",
+      "alt": "Transactional Emailing Chart",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "floatFaster"],
+      "position": {
+        "bottom": "5%",
+        "right": "2%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Get Started",
+      "type": "PAGE",
+      "link": "/one/pricing/",
+      "variant": "primary",
+      "title": "Mumara Home"
+    },
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/one",
+      "variant": "primary-light"
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Your all-in-one emailing platform",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/home/bx-radio-circle-marked.svg",
+            "alt": "emailing platform",
+            "color": "primary"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Marketing + Transactional Emailing",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../assets/flexiblocks/home/bx-radio-circle-marked.svg",
+            "alt": "Transactional Emailing",
+            "color": "primary"
+          }
+        }
+      ]
+    }
+  ]
+}

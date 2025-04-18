@@ -1,0 +1,59 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "AirBnB"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/client1.jpg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Amazon Web Services"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/client2.jpg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Cisco"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/client3.jpg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Confluence"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/client4.jpg",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Linkedin"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/client5.jpg",
+        "alt": "alt text"
+      }
+    }
+  ]
+}

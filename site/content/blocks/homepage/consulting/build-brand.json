@@ -1,0 +1,103 @@
+{
+  "text": [
+    {
+      "text": "Highlighted Features",
+      "variant": "h2"
+    },
+    {
+      "text": "We help our clients achieve tangible, high-impact results.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/consulting/build-brand.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Drip Campaigns",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "A powerful automation tool to help you strengthen the roots of relationship marketing."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Automation",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Design the user experience by triggering a series of actions to be performed and automating the marketing flow."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Deep Segmentation",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Don’t be irrelevant by sending the content beside the point. Make use of segmentation to create more targeted subsets."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Easy Opt-In Forms",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Follow a few simple steps to set up double opt-in forms with the fields of your choice and a proper flow of Confirmation."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Personalization Options",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Use a personalized approach to creating and sending email content and establish long-lasting relationships with customers."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Reporting That Matters",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Delve deep inside what has happened with the campaign you sent earlier, examine every aspect that counts."
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Explore More",
+      "type": "PAGE",
+      "link": "/one/pricing/",
+      "variant": "primary",
+      "title": "Mumara Home"
+    }
+  ]
+}
