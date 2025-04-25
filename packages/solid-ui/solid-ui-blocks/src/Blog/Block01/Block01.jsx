@@ -84,7 +84,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
       <Reveal effect='fadeIn'>
         <Flex sx={{ flexWrap: `wrap`, justifyContent: `center`, m: -3 }}>
           {collection.map(
-            ({ container, text, images, avatar, buttons }, index) => (
+            ({ container, text, images, avatar,buttons }, index) => (
               <Box key={`item-${index}`} sx={styles.wrapper}>
                 <ContentContainer
                   content={container}
@@ -103,21 +103,6 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                       </Box>
                     </Box>
                     <Box sx={styles.body}>
-                      {/* Category */}
-                      {text?.[0]?.text && (
-                        <Box sx={{ display: `inline-block` }}>
-                          <Box mb='3'>
-                            <Badge
-                              variant='tag'
-                              sx={{ bg: `alphaLighter` }}
-                              color={text[0]?.color}
-                            >
-                              {text[0].text}
-                            </Badge>
-                          </Box>
-                        </Box>
-                      )}
-                      {/* Title */}
                       <ContentText
                         content={text?.[1]}
                         sx={{ flex: [0, 0, `auto`] }}
@@ -183,13 +168,24 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
         </Flex>
       </Reveal>
     )}
-    {buttons && (
-      <>
-        <Divider space={3} />
-        <ContentButtons content={buttons} />
-      </>
-    )}
+   {buttons && (
+  <Box
+    sx={{
+      display: 'flex',
+      justifyContent: 'center', 
+      alignItems: 'center',     
+      py: 5,                    
+      ...styles.buttonContainer 
+    }}
+  >
+    <Reveal effect='fadeInUp' delay={0.5}>
+      <ContentButtons content={buttons} />
+    </Reveal>
+  </Box>
+)}
+
   </Container>
+  
 )
 
 export default WithDefaultContent(BlogBlock01)

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
@@ -7,56 +7,53 @@ import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
 import FlexOverlapFade from '@solid-ui-components/FlexOverlapFade'
 import ContentImages from '@solid-ui-components/ContentImages'
-import ContentButtons from '@solid-ui-components/ContentButtons'
 import ContentText from '@solid-ui-components/ContentText'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const FeaturesWithPhotoBlock01 = ({
-  content: { text, images, collection, buttons },
+  content: { text, images, collection, bottomText }, // Added bottomText to content
   reverse
 }) => (
-  <Container sx={{ position: `relative` }}>
+  <Container sx={{ position: 'relative' }}>
+
+    {/* Top Text */}
+    <Box sx={{ textAlign: 'center',width: '100%', maxWidth:'850px',mx:'auto' , py: 5}}> {/* Adjusted mx for responsiveness */}
+      <ContentText content={text} />
+    </Box>
+
+    {/* Image + List Section */}
     <Flex
-      sx={{
-        alignItems: [null, `center`],
-        flexDirection: [
-          reverse ? `column-reverse` : `column`,
-          reverse ? `row-reverse` : `row`
-        ],
-        mx: [null, null, null, -4]
-      }}
-    >
-      <FlexImage reverse={reverse}>
-        <ContentImages content={{ images }} reverse={reverse} />
-      </FlexImage>
-      <FlexContent reverse={reverse}>
-        <Box sx={{ textAlign: ['center', 'left'] }}>
-          <ContentText content={text} />
+  sx={{
+    width: '100%',
+    mx: 'auto',
+    objectFit: 'contain',
+    flexDirection: ['column', null, 'row'], 
+    alignItems: 'left',
+    justifyContent: 'space-between', 
+  }}
+>
+  <FlexContent reverse={reverse} sx={{ width: ['100%', null, '50%'], order: [2, null, 1] }}> {/* Adjust width and order */}
+    {collection && (
+      <>
+        <Divider space={3} />
+        <Box sx={{ flexGrow: 1, mr: [0, null, 3] }}> {/* Adjust margin for larger screens */}
+          {collection.map((props, index) => (
+            <ListItem key={`item-${index}`} {...props} compact />
+          ))}
         </Box>
-        {collection && (
-          <>
-            <Divider space={3} />
-            <Reveal
-              effect={reverse ? 'fadeInRight' : 'fadeInLeft'}
-              duration={1.5}
-            >
-              {collection.map((props, index) => (
-                <Fragment key={`item-${index}`}>
-                  <ListItem {...props} />
-                  <Divider space={2} />
-                </Fragment>
-              ))}
-            </Reveal>
-          </>
-        )}
-        {buttons && (
-          <>
-            <Divider space={3} />
-            <ContentButtons content={buttons} />
-          </>
-        )}
-      </FlexContent>
-    </Flex>
+      </>
+    )}
+  </FlexContent>
+
+  <FlexImage reverse={reverse} sx={{ width: ['100%', null, '50%'], order: [1, null, 2] }}> {/* Adjust width and order */}
+    <Box sx={{ width: '100%', maxWidth: '100%', overflow: 'hidden' }}>
+      <ContentImages content={{ images }} />
+    </Box>
+  </FlexImage>
+</Flex>
+
+    {/* Bottom Text */}
+    
     <FlexOverlapFade direction={reverse ? 'ltr' : 'rtl'} />
   </Container>
 )

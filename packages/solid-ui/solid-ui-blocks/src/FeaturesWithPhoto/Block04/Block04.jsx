@@ -21,7 +21,7 @@ const styles = {
 
 const FeaturesWithPhotoBlock04 = ({
   content: { text, images, collection, buttons }, // Include buttons in content destructuring
-}) => (
+  }) => (
   <Container>
     {text && (
       <Box sx={{ textAlign: `center` }}>

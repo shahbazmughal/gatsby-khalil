@@ -6,7 +6,6 @@ import pageContextProvider from '@helpers/pageContextProvider'
 import { FormContextProvider } from '@solid-ui-components/ContentForm'
 import { ModalContextProvider } from '@solid-ui-components/Modal'
 import { TabsContextProvider } from '@solid-ui-components/Tabs'
-import ColorMode from '@solid-ui-components/ColorMode'
 
 const Layout = ({ children, pageContext = {}, location, theme = {} }) => {
   return (
@@ -17,7 +16,7 @@ const Layout = ({ children, pageContext = {}, location, theme = {} }) => {
             <TabsContextProvider>
               <Flex variant='layout.layout'>
                 <Global styles={css(theme => theme.global)} />
-                <ColorMode />
+                
                 <Box variant='layout.body'>{children}</Box>
               </Flex>
             </TabsContextProvider>

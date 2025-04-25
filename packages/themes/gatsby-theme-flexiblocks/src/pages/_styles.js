@@ -7,6 +7,8 @@
 
 import heroBg from './assets/dot-pattern.svg'
 import growth from './assets/growth.svg'
+import heroBgmarkiting from './assets/contour-pattern.svg'
+import holographic from './assets/holographic.jpg'
 
 export default {
   heroContainer: {
@@ -65,5 +67,50 @@ export default {
     borderRadius: `xl`,
     py: 5,
     px: [4, 4]
-  }
+  },
+
+  heroContainermarkiting: {
+    position: 'relative',
+    '::before': {
+      content: '""',
+      position: 'absolute',
+      top: '-10%',
+      left: 0,
+      width: '100%',
+      height: '120%',
+      zIndex: -1,
+      background: `url(${heroBgmarkiting}) no-repeat center top, linear-gradient(
+        180deg,
+        rgb(209, 233, 231) 0%,
+        rgb(255, 255, 255) 100%
+      )`,
+      backgroundSize: 'cover'
+    }
+  },
+  featureThreeContainer: {
+      position: `relative`,
+      py: [4],
+      '::before, ::after': {
+        position: `absolute`,
+        content: `" "`,
+        size: `full`,
+        top: `30%`,
+        right: `0%`,
+        zIndex: -1
+      },
+      '::after': {
+        background: `linear-gradient(
+            180deg,
+            rgba(255,255,255,1) 0%,
+            rgba(255,255,255,0.6) 50%,
+            rgba(255,255,255,1) 100%
+          )`
+      },
+      '::before': {
+        background: `url(${holographic}) no-repeat center center`,
+        backgroundSize: `cover`
+      }
+    }
+  
+  
 }

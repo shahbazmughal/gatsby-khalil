@@ -1,0 +1,45 @@
+{
+    "text": [
+      {
+        "text": "Mumara as a Product",
+        "variant": "h1",
+        "color": "omegaDarker"
+      },
+      {
+        "text": "Mumara Campaigns",
+        "variant": "h3",
+        "color": "#0f977e"
+      },
+      {
+        "text": "Take a step forward from the typical way of sending generic newsletters to remind your customers that you still exist. Use the Mumara platform to explore new possibilities of business communication, relationship marketing, prospect nurturing, and closing sales. Stay on the top by using a bunch of features and tools to send customized emails that the recipient can’t ignore.",
+        "variant": "medium"
+      }
+    ],
+    "images": [
+      {
+        "src": "../../../assets/flexiblocks/home/dashboardcampaigns.jpg",
+        "alt": "alt text"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Learn More",
+        "type": "MODAL",
+        "link": "contact",
+        "variant": "secondary"
+      },
+      {
+        "text": "Pricing",
+        "type": "PAGE",
+        "link": "",
+        "variant": "primary"
+      },
+      {
+        "text": "Start Trial",
+        "type": "MODAL",
+        "link": "contact",
+        "variant": "secondary"
+      }
+    ]
+  }
+  

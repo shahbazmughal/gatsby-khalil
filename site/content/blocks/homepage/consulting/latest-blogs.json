@@ -1,143 +1,87 @@
 {
   "text": [
     {
-      "text": "Latest From Our Blog",
+      "text": "Blogs, Resources & More.",
       "variant": "h2"
-    },
-    {
-      "text": "With FlexiBlog Theme, add a fully functional blog to your site.",
-      "variant": "medium"
     }
   ],
   "collection": [
     {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "MODAL",
-          "link": "advertisement"
-        }
-      },
+
       "text": [
         {
           "text": "Innovation",
           "color": "alphaDark"
         },
         {
-          "text": "Best Digital Marketing Stats We’ve Seen This Week",
+          "text": "Improving Email Deliverability: Understanding Email Marketing Laws",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "April 22, 2021"
-        },
-        {
-          "text": "5 min"
+          "text": "Email marketing is a powerful tool for businesses to connect with their audience, drive sales, and build customer relationships. However, it is important for businesses to understand and comply ..."
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/sarah-doe.png",
-        "alt": "alt text"
-      },
       "images": [
         {
-          "src": "../../../assets/flexiblocks/blog/blog-1.jpg",
+          "src": "../../../assets/flexiblocks/home/1.jpg",
           "alt": "alt text"
         }
       ]
     },
     {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "MODAL",
-          "link": "advertisement"
-        }
-      },
+
       "text": [
         {
-          "text": "Management",
+          "text": "Innovation",
           "color": "alphaDark"
         },
         {
-          "text": "A Marketer’s Guide to Price Comparison Websites",
+          "text": "How to get the famous Evergreen Addon for Mumara Campaigns?",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "May 10, 2021"
-        },
-        {
-          "text": "10 min"
+          "text": "Introducing Mumara's Evergreen Campaigns Addon: the ultimate solution for streamlining your marketing efforts. This powerful addon lets you auto-schedule campaigns based on your preferred ..."
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
-        "alt": "alt text"
-      },
       "images": [
         {
-          "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
+          "src": "../../../assets/flexiblocks/home/2.jpg",
           "alt": "alt text"
         }
       ]
     },
     {
-      "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "MODAL",
-          "link": "advertisement"
-        }
-      },
+
       "text": [
         {
-          "text": "Case Studies",
+          "text": "Innovation",
           "color": "alphaDark"
         },
         {
-          "text": "50 social impact innovations that might save the world",
+          "text": "5 Features to Look for in Email Marketing Software",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "March 16, 2021"
-        },
-        {
-          "text": "7 min"
+          "text": "There has always been a debate about, which email marketing software is the best in the market. The answer actually lies in the fact that a particular software offers features to suit your needs and has the capability to produce anticipated results."
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/steve-grant.png",
-        "alt": "alt text"
-      },
       "images": [
         {
-          "src": "../../../assets/flexiblocks/blog/blog-3.jpg",
+          "src": "../../../assets/flexiblocks/home/3.jpg",
           "alt": "alt text"
         }
       ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "View All Blogs",
+      "type": "PAGE",
+      "link": "/one/pricing/",
+      "variant": "primary"
     }
   ]
 }

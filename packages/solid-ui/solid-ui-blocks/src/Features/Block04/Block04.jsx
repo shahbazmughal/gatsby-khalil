@@ -17,7 +17,7 @@ const styles = {
 
 const FeaturesBlock04 = ({ content: { text, collection, buttons } }) => (
   <Container as={Reveal}>
-    <Box sx={{ textAlign: `center`, px: 210 }}>
+    <Box sx={{textAlign: 'center',width: '100%', maxWidth:'850px',mx:'auto'  }}>
       <ContentText content={text} />
     </Box>
     {collection && (

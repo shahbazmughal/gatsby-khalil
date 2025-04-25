@@ -1,20 +1,150 @@
 {
   "text": [
     {
-      "text": "Understand First. Lorem ipsum dolor sit amet.",
-      "color": "alpha",
-      "variant": "h5"
+      "text": "Highlighted Featured",
+      "variant": "h2"
     },
     {
-      "text": "We help our clients achieve tangible, high-impact results."
+      "text": "Mumara is a vendor of multiple applications and below you can find them.",
+      "variant": "h5",
+      "color": "#718096"
     }
+
   ],
-  "buttons": [
-    {
-      "text": "Download our Free Cheat Sheet",
-      "type": "PAGE",
-      "link": "",
-      "variant": "primary-light"
+"collection": [
+  {
+    "text": [
+      {
+        "text": "One",
+        "color": "black",
+        "variant": "h6"
+
+      },
+      {
+        "text": "Saas",
+        "color": "#718096",
+        "variant": "h6"
+      },
+      {
+        "text": "An all-in-one solution for your newsletter.",
+        "color": "#718096"
+      }
+    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/home/campaigns.jpg",
+      "bg": "white"
     }
-  ]
+  },
+  {
+    "text": [
+      {
+        "text": "Campaigns",
+        "color": "black",
+        "variant": "h6"
+      },
+      {
+        "text": "Cloud, Self-hosted",
+        "color": "#718096",
+        "variant": "h6"
+      },
+      {
+        "text": "A powerful application for email marketing automation",
+        "color": "#718096"
+      }
+    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/home/one.jpg",
+      "bg": "white"
+    }
+  },
+  {
+    "text": [
+      {
+        "text": "SMS+",
+        "color": "black",
+        "variant": "h6"
+      },
+      {
+        "text": "Cloud",
+        "color": "#718096",
+        "variant": "h6"
+      },
+      {
+        "text": "Become an SMS service provider and start your own business",
+        "color": "#718096"
+      }
+    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/home/smsplus.jpg",
+      "bg": "white"
+    }
+  },
+  {
+    "text": [
+      {
+        "text": "SMS",
+        "color": "black",
+        "variant": "h6"
+      },
+      {
+        "text": "Saas",
+        "color": "#718096",
+        "variant": "h6"
+      },
+      {
+        "text": "Send SMS worldwide using your own sender-id",
+        "color": "#718096"
+      }
+    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/home/sms.jpg",
+      "bg": "white"
+    }
+  },
+  {
+    "text": [
+      {
+        "text": "SMS",
+        "color": "black",
+        "variant": "h6"
+      },
+      {
+        "text": "Self-hosted",
+        "color": "#718096",
+        "variant": "h6"
+      },
+      {
+        "text": "The legendary email marketing application with over 30,000 users",
+        "color": "#718096"
+      }
+    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/home/classic.jpg",
+      "bg": "white"
+    }
+  },
+  {
+    "text": [
+      {
+        "text": "SMS",
+        "color": "black",
+        "variant": "h6"
+      },
+      {
+        "text": "Self-hosted",
+        "color": "#718096",
+        "variant": "h6"
+      },
+      {
+        "text": "Build an email marketing company and automate the user’s setup",
+        "color": "#718096"
+        
+      }
+    ],
+    "icon": {
+      "src": "../../../assets/flexiblocks/home/classic-esp.jpg",
+      "bg": "white"
+    }
+  }
+]
 }

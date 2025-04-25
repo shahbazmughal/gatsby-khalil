@@ -1,60 +1,68 @@
 import React from 'react'
 import { Container, Flex, Box } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import Counter from '@solid-ui-components/Counter'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentButtons from '@solid-ui-components/ContentButtons'
+import Icon from '@solid-ui-components/ContentIcon'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const StatsBlock01 = ({
-  content: { text, container, collection, buttons }
-}) => (
+const styles = {
+  listItem: {
+    flexBasis: [`100%`, null, `50%`],
+    textAlign: 'left',
+    p: [2, 4],
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    borderColor: 'muted',
+    borderRight: ['none', null, '1px solid rgba(113, 128, 150, 0.2)'],
+    '&:nth-of-type(2)': {
+      borderRight: 'none'
+    }
+  },
+  iconWrapper: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: 3,
+    mb: 2
+  },
+  buttonWrapper: {
+    mt: 2,
+    mb: 3
+  }
+}
+
+const StatsBlock01 = ({ content: { text, container, collection, buttons } }) => (
   <Container sx={{ textAlign: `center` }}>
     <ContentContainer content={container} variant='cards.paper-lg'>
       <ContentText content={text} />
-      {text && collection && <Divider space={3} />}
+
       {collection && (
         <>
-          <Flex
-            sx={{
-              flexWrap: `wrap`,
-              alignItems: `flex-start`,
-              alignContent: `center`,
-              justifyContent: `center`,
-              m: -1
-            }}
-          >
-            {collection?.map(({ text }, index) => (
-              <Box
-                key={`item-${index}`}
-                sx={{
-                  flex: `1`,
-                  minWidth: 100,
-                  textAlign: `center`,
-                  p: 1
-                }}
-              >
-                <Reveal effect='fadeInGrow' delay={0.2 * (index + 2)}>
-                  <ContentText content={text?.[0]} mb='0'>
-                    <Counter to={parseInt(text?.[0]?.text)} />
-                  </ContentText>
-                  <ContentText
-                    content={text?.[1]}
-                    sx={{ fontWeight: `body` }}
-                    mb='0'
-                  />
-                </Reveal>
+          <Divider space={3} />
+          <ContentContainer>
+            <Flex sx={{ flexWrap: 'wrap', justifyContent: 'center' }}>
+            {collection.map(({ text, icon, buttons }, index) => (
+              <Box key={`item-${index}`} sx={styles.listItem}>
+                <Box sx={styles.iconWrapper}>
+                  <Icon content={icon} size='sx' />
+                  <ContentText content={text?.[0]} mb={0} />
+                </Box>
+
+                <ContentText content={text?.[1]} />
+
+                {buttons && (
+                  <Box sx={styles.buttonWrapper}>
+                    <ContentButtons content={buttons} />
+                  </Box>
+                )}
               </Box>
             ))}
-          </Flex>
-        </>
-      )}
-      {buttons && (
-        <>
-          <Divider />
-          <ContentButtons content={buttons} />
+
+            </Flex>
+          </ContentContainer>
         </>
       )}
     </ContentContainer>

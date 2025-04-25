@@ -8,16 +8,17 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
+import Hero2 from '@solid-ui-blocks/Hero/Block02'
 import Companies from '@solid-ui-blocks/Companies/Block01'
 import BuildBrand from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
-import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block04'
-import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
+import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import Strategies from '@solid-ui-blocks/Features/Block06'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Testimonials from '@solid-ui-blocks/Testimonials/Block02'
-import GetStarted from '@solid-ui-blocks/CallToAction/Block01'
+import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import FeatureOnetext from '@solid-ui-blocks/FeaturesWithPhoto/Block08'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -31,36 +32,36 @@ const HomePage = props => {
   return (
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
-      {/* Modals */}
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
-      {/* Blocks */}
       <Header content={content['header']} />
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
       </Container>
+      <Container variant='full' sx={styles.featureThreeContainer}>
       <Divider space='5' />
-      <Strategies content={content['strategies']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <FeatureOne content={content['feature-one']} />
-      <Divider space='5' />
-      <Divider space='5' />
+          <Strategies content={content['strategies']} />
+        <Divider space='5' />
+        <FeatureOne content={content['feature-one']} />
+        <FeatureOnetext content={content['feature-one-text']} />
+      </Container>
       <Container variant='wide' sx={styles.chooseUsContainer}>
         <WhyChooseUs content={content['why-choose-us']} />
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <FeatureTwo content={content['feature-two']} reverse />
+      <Container variant='full' sx={styles.heroContainermarkiting}>
+        <Hero2 content={content['hero2']} />
+      </Container>
       <Divider space='5' />
-      <Divider space='5' />
-      <Stats content={content['stats']} />
-      <Divider space='4' />
       <Container variant='full' sx={styles.buildBrandContainer}>
         <BuildBrand content={content['build-brand']} />
       </Container>
       <Divider space='4' />
+      <Divider space='5' />
+      <Stats content={content['stats']} />
+      <Divider space='5' />
       <Download content={content['download']} />
       <Divider space='5' />
       <Container variant='wide' sx={styles.testimonialsContainer}>
@@ -69,13 +70,10 @@ const HomePage = props => {
         <Companies content={content['companies']} />
       </Container>
       <Divider space='5' />
-      <Container sx={styles.getStartedContainer}>
-        <GetStarted content={content['get-started']} />
-      </Container>
-      <Divider space='5' />
-      <Divider space='5' />
+       {/* <Divider space='5' />
+      <FeatureTwo content={content['feature-two']} reverse />
+      <Divider space='5' />  */}
       <Blog content={content['latest-blogs']} />
-      <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
   )

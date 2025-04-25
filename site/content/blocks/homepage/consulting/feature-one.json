@@ -1,71 +1,107 @@
 {
   "text": [
     {
-      "text": "GROW YOUR BUSINESS",
-      "color": "omegaDark",
-      "variant": "h4"
+      "text": "Drag and Drop Email Newsletter Builder",
+      "variant": "h3"
     },
     {
-      "text": "Best Marketing Service for **Technological Era**",
-      "variant": "h2"
-    },
-    {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna.",
+      "text": "Create beautiful and responsive newsletters without having any prior knowledge of HTML or CSS using our Drag and drop newsletter builder.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/consulting/feature-one.jpg",
-      "radius": "lg",
+      "src": "../../../assets/flexiblocks/home/mumaraone-builder.png",
+      "radius": "md",
       "alt": "alt text"
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/consulting/feature-one-overlay.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInLeft", "float"],
-      "position": {
-        "bottom": "15%",
-        "right": "-5%"
-      }
     }
   ],
   "collection": [
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
-        "color": "beta",
-        "bg": "betaLighter"
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#718096"
       },
       "text": [
         {
-          "text": "Automatic interest detection",
-          "color": "omegaDark",
-          "variant": "h5"
-        },
-        {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna."
+          "text": "Compose & design emails in mere minutes",
+          "color": "#718096",
+          "variant": "h6"
         }
       ]
     },
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
-        "color": "alpha",
-        "bg": "alphaLighter"
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#718096"
       },
       "text": [
         {
-          "text": "Daily email reports",
-          "color": "omegaDark",
-          "variant": "h5"
-        },
-        {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna."
+          "text": "Pick from hundreds of templates that match your style",
+          "color": "#718096",
+          "variant": "h6"
         }
       ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#718096"
+      },
+      "text": [
+        {
+          "text": "Responsive designs",
+          "color": "#718096",
+          "variant": "h6"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#718096"
+      },
+      "text": [
+        {
+          "text": "No design or coding skills needed",
+          "color": "#718096",
+          "variant": "h6"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#718096"
+      },
+      "text": [
+        {
+          "text": "Personalize your email with text, images & more!",
+          "color": "#718096",
+          "variant": "h6"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#718096"
+      },
+      "text": [
+        {
+          "text": "Flexibility to upload your own templates",
+          "color": "#718096",
+          "variant": "h6"
+        }
+      ]
+    }
+    
+  ],
+  "bottomText": [
+    {
+      "text": "See how it works",
+      "variant": "h5",
+      "color": "omegaDark"
     }
   ]
 }
