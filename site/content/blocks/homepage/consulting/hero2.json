@@ -26,19 +26,19 @@
         "text": "Learn More",
         "type": "MODAL",
         "link": "contact",
-        "variant": "secondary"
+        "variant": "primary"
       },
       {
         "text": "Pricing",
         "type": "PAGE",
         "link": "",
-        "variant": "primary"
+        "variant": "secondary"
       },
       {
         "text": "Start Trial",
         "type": "MODAL",
         "link": "contact",
-        "variant": "secondary"
+        "variant": "primary"
       }
     ]
   }

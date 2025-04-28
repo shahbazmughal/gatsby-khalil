@@ -77,11 +77,11 @@ export default {
     },
     greenBlue: {
       // Alpha (primary)
-      alphaLighter: colors.blue[100],
-      alphaLight: colors.blue[300],
-      alpha: colors.blue[500],
-      alphaDark: colors.blue[600],
-      alphaDarker: colors.blue[800],
+      alphaLighter: colors.green[100],
+      alphaLight: colors.green[300],
+      alpha: colors.green[500],
+      alphaDark: colors.green[600],
+      alphaDarker: colors.green[800],
       // beta (secondary)
       betaLighter: colors.lime[100],
       betaLight: colors.lime[300],

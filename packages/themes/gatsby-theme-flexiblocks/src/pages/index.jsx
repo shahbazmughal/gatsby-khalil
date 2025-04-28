@@ -24,6 +24,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
 import styles from './_styles'
+import './style.css'
 
 const HomePage = props => {
   const { allBlockContent } = props.data
@@ -70,10 +71,10 @@ const HomePage = props => {
         <Companies content={content['companies']} />
       </Container>
       <Divider space='5' />
+      <Blog content={content['latest-blogs']} />
        {/* <Divider space='5' />
       <FeatureTwo content={content['feature-two']} reverse />
       <Divider space='5' />  */}
-      <Blog content={content['latest-blogs']} />
       <Footer content={content['footer']} />
     </Layout>
   )

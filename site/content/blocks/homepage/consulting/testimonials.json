@@ -195,7 +195,7 @@
       "text": "User Review",
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/0dhTw9o3Zfk?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-      "variant": "secondary",
+      "variant": "primary",
       "images": [{
               "src": "../../assets/flexiblocks/testimonials/john-doe.jpg",
               "alt": "User Reviewt"
@@ -205,7 +205,7 @@
       "text": "User Review",
       "type": "VIDEO",
       "link": "https://www.youtube.com/embed/LSbKI2Yx_d0?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-      "variant": "primary",
+      "variant": "secondary",
       "images": [{
           "src": "../../assets/flexiblocks/testimonials/john-doe.jpg",
           "alt": "User Reviews"
