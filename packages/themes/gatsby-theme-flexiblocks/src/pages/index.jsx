@@ -18,6 +18,7 @@ import Strategies from '@solid-ui-blocks/Features/Block06'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Testimonials from '@solid-ui-blocks/Testimonials/Block02'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
+import Menu from '@solid-ui-blocks/Menu'
 import FeatureOnetext from '@solid-ui-blocks/FeaturesWithPhoto/Block08'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -36,7 +37,8 @@ const HomePage = props => {
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
-      <Header content={content['header']} />
+      <Menu content={content['header']} />
+      {/* <Header content={content['header']} /> */}
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
       </Container>
@@ -72,9 +74,8 @@ const HomePage = props => {
       </Container>
       <Divider space='5' />
       <Blog content={content['latest-blogs']} />
-       {/* <Divider space='5' />
+       <Divider space='3' />
       <FeatureTwo content={content['feature-two']} reverse />
-      <Divider space='5' />  */}
       <Footer content={content['footer']} />
     </Layout>
   )

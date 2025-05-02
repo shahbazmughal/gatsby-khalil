@@ -9,48 +9,58 @@
     {
       "buttons": [
         {
+          "text": "Home",
+          "type": "PAGE",
+          "link": "/",
+          "variant": "links.nav-dark"
+        },
+        {
           "text": "Apps",
           "type": "SUB",
           "variant": "links.nav-dark",
           "buttons": [
             {
-              "text": "Compaigns",
+              "text": "Campaigns",
+              "bg":"Your own email marketing automation system hosted on your server or Mumara cloud.",
               "type": "PAGE",
-              "link": "/homepage/saas/",
+              "link": "/campaigns",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#276BF0"
+                "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+                "color": "#0e997e"
               }
             },
             {
               "text": "SMS+",
+              "bg":"Build up your SMS marketing company and sell the SMS service to your clients.",
               "type": "PAGE",
-              "link": "/homepage/saas-v2/",
+              "link": "/smsplus",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#FE7245"
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
               }
             },
             {
               "text": "Classic Pro",
+              "bg":"Fast and reliable self-hosted email marketing platform. Alternatively called “older brother of Mumara Campaigns”.",
               "type": "PAGE",
-              "link": "/homepage/fintech/",
+              "link": "/classic",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#000000"
+                "src": "../../assets/flexiblocks/icons/bx-box.svg",
+                "color": "#0e997e"
               }
             },
             {
               "text": "Classic ESP",
+              "bg":"Sell emailing service to your clients and automate the experience of authenticating their sending domains and generating SMTPs.",
               "type": "PAGE",
-              "link": "/homepage/consulting/",
+              "link": "/classic-esp",
               "variant": "links.nav-dark",
               "icon": {
                 "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#6E5BD8"
+                "color": "#0e997e"
               }
             }
           ]
@@ -61,97 +71,92 @@
           "variant": "links.nav-dark",
           "buttons": [
             {
-              "text": "Software",
+              "text": "One",
+              "bg":"Send personalized campaigns and transactional emails from our platform and IP addresses.",
               "type": "PAGE",
-              "link": "/homepage/saas/",
+              "link": "/one",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#276BF0"
+                "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+                "color": "#0e997e"
               }
             },
             {
-              "text": "Software v2",
+              "text": "SMS",
+              "bg":"Send transactional and promotional messages to your clients with delivery reports.",
               "type": "PAGE",
-              "link": "/homepage/saas-v2/",
+              "link": "/sms",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#FE7245"
+                "src": "../../assets/flexiblocks/icons/bx-chat.svg",
+                "color": "#0e997e"
               }
             },
             {
-              "text": "Fintech Startup",
+              "text": "Drive",
+              "bg":"Mumara Drive provides secure cloud storage for your photos, videos, music, and other files. A drive you can trust and stays with you all the time.",
               "type": "PAGE",
-              "link": "/homepage/fintech/",
+              "link": "https://drive.mumara.com/",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#000000"
-              }
-            },
-            {
-              "text": "Consulting",
-              "type": "PAGE",
-              "link": "/homepage/consulting/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#6E5BD8"
-              }
-            },
-            {
-              "text": "Mobile App",
-              "type": "PAGE",
-              "link": "/homepage/app/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#FF4A32"
-              }
-            },
-            {
-              "text": "Marketing",
-              "type": "PAGE",
-              "link": "/homepage/marketing/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#3D8DFF"
+                "src": "../../assets/flexiblocks/icons/bx-data.svg",
+                "color": "#0e997e"
               }
             }
           ]
         },
         {
           "text": "Tools",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Disposable Email",
+              "bg":"Create a temporary email address for quick usage or testing purposes.",
+              "type": "PAGE",
+              "link": "https://disposable.mumara.com",
+              "variant": "links.nav-dark",
+              "target": "_blank",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mail-send.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "DNS Checker",
+              "bg":"Check the DNS propagation from several edge servers throughout the world.",
+              "type": "PAGE",
+              "link": "https://dnschecker.mumara.com/ ",
+              "variant": "links.nav-dark",
+              "target": "_blank",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-target-lock.svg",
+                "color": "#0e997e"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Resources",
           "variant": "links.nav-dark",
           "type": "SUB",
           "collection": [
             {
               "buttons": [
                 {
-                  "text": "LANDING PAGES",
+                  "text": "Resources",
                   "type": "SUB",
                   "variant": "links.disabled",
                   "buttons": [
                     {
-                      "text": "Software",
+                      "text": " Community",
+                      "bg":"Give suggestions or get suggestions and talk to the experts.",
                       "type": "PAGE",
-                      "link": "/homepage/saas/",
+                      "link": "https://community.mumara.com/",
                       "variant": "links.nav-dark",
                       "icon": {
-                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                        "color": "omegaDark"
-                      }
-                    },
-                    {
-                      "text": "Software v2",
-                      "type": "PAGE",
-                      "link": "/homepage/saas-v2/",
-                      "variant": "links.nav-dark",
-                      "icon": {
-                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                        "color": "omegaDark"
+                        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+                        "color": "#0e997e"
                       }
                     }
                   ]
@@ -162,50 +167,14 @@
                   "variant": "links.hidden",
                   "buttons": [
                     {
-                      "text": "Fintech Startup",
+                      "text": "Mumara Business School",
+                      "bg":"Learn how to get the maximum out of your Marketing!",
                       "type": "PAGE",
-                      "link": "/homepage/fintech/",
+                      "link": "https://school.mumara.com/",
                       "variant": "links.nav-dark",
                       "icon": {
-                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                        "color": "omegaDark"
-                      }
-                    },
-                    {
-                      "text": "Consulting",
-                      "type": "PAGE",
-                      "link": "/homepage/consulting/",
-                      "variant": "links.nav-dark",
-                      "icon": {
-                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                        "color": "omegaDark"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "text": "_",
-                  "type": "SUB",
-                  "variant": "links.hidden",
-                  "buttons": [
-                    {
-                      "text": "Mobile App",
-                      "type": "PAGE",
-                      "link": "/homepage/app/",
-                      "variant": "links.nav-dark",
-                      "icon": {
-                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                        "color": "omegaDark"
-                      }
-                    },
-                    {
-                      "text": "Marketing",
-                      "type": "PAGE",
-                      "link": "/homepage/marketing/",
-                      "variant": "links.nav-dark",
-                      "icon": {
-                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                        "color": "omegaDark"
+                        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+                        "color": "#0e997e"
                       }
                     }
                   ]
@@ -218,124 +187,60 @@
               },
               "buttons": [
                 {
-                  "text": "PRICING",
+                  "text": "Helpful Links",
                   "type": "SUB",
                   "variant": "links.disabled",
-                  "icon": {
-                    "src": "../../assets/flexiblocks/icons/bx-dollar-circle.svg",
-                    "color": "alpha"
-                  },
                   "buttons": [
                     {
-                      "text": "Pricing 01",
+                      "text": "Documentation",
+                      "bg":"Find the answers to your questions and learn how to use Mumara.",
                       "type": "PAGE",
-                      "link": "/innerpage/pricing-01/",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Pricing 02",
-                      "type": "PAGE",
-                      "link": "/innerpage/pricing-02/",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Pricing 03",
-                      "type": "PAGE",
-                      "link": "/innerpage/pricing-03/",
-                      "variant": "links.nav-dark"
+                      "link": "https://support.mumara.com/",
+                      "variant": "links.nav-dark",
+                      "icon": {
+                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
+                        "color": "#0e997e"
+                      }
                     }
                   ]
                 },
                 {
-                  "text": "SERVICES",
+                  "text": "",
                   "type": "SUB",
                   "variant": "links.disabled",
-                  "icon": {
-                    "src": "../../assets/flexiblocks/icons/bxs-component.svg",
-                    "color": "alpha"
-                  },
                   "buttons": [
                     {
-                      "text": "Services 01",
+                      "text": "Publication",
+                      "bg":"Stay updated with the latest happenings in the market and email marketing automation.",
                       "type": "PAGE",
-                      "link": "/innerpage/services-01/",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Services 02",
-                      "type": "PAGE",
-                      "link": "/innerpage/services-02/",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "Services 03",
-                      "type": "PAGE",
-                      "link": "/innerpage/services-03/",
-                      "variant": "links.nav-dark"
+                      "link": "https://publication.mumara.com/",
+                      "variant": "links.nav-dark",
+                      "icon": {
+                        "src": "../../assets/flexiblocks/icons/bxs-component.svg",
+                        "color": "#0e997e"
+                      }
                     }
                   ]
                 },
                 {
-                  "text": "ABOUT US",
+                  "text": "",
                   "type": "SUB",
                   "variant": "links.disabled",
-                  "icon": {
-                    "src": "../../assets/flexiblocks/icons/bxs-component.svg",
-                    "color": "alpha"
-                  },
                   "buttons": [
                     {
-                      "text": "About 01",
+                      "text": "Developers",
+                      "bg":"Enhance Mumara functionality by adding your code to it or integrate Mumara with your application.",
                       "type": "PAGE",
-                      "link": "/innerpage/about-us-01",
-                      "variant": "links.nav-dark"
-                    },
-                    {
-                      "text": "About 02",
-                      "type": "PAGE",
-                      "link": "/innerpage/about-us-02",
-                      "variant": "links.nav-dark"
+                      "link": "https://developers.mumara.com/",
+                      "variant": "links.nav-dark",
+                      "icon": {
+                        "src": "../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+                        "color": "#0e997e"
+                      }
                     }
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "text": "Resources",
-          "type": "SUB",
-          "variant": "links.nav-dark",
-          "buttons": [
-            {
-              "text": "Register/Login",
-              "type": "MODAL",
-              "link": "authentication",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bx-lock-alt.svg",
-                "color": "alphaLight"
-              }
-            },
-            {
-              "text": "Contact Form",
-              "type": "MODAL",
-              "link": "contact",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
-                "color": "alphaLight"
-              }
-            },
-            {
-              "text": "Advertisement",
-              "type": "MODAL",
-              "link": "advertisement",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bx-target-lock.svg",
-                "color": "alphaLight"
-              }
             }
           ]
         },
@@ -345,63 +250,23 @@
           "variant": "links.nav-dark",
           "buttons": [
             {
-              "text": "Software",
+              "text": "Client area",
               "type": "PAGE",
-              "link": "/homepage/saas/",
+              "link": "https://billing.mumara.com/login",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#276BF0"
+                "src": "../../assets/flexiblocks/icons/bx-user.svg",
+                "color": "#0e997e"
               }
             },
             {
-              "text": "Software v2",
+              "text": "Mumara One",
               "type": "PAGE",
-              "link": "/homepage/saas-v2/",
+              "link": "https://account.mumara.com/",
               "variant": "links.nav-dark",
               "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#FE7245"
-              }
-            },
-            {
-              "text": "Fintech Startup",
-              "type": "PAGE",
-              "link": "/homepage/fintech/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#000000"
-              }
-            },
-            {
-              "text": "Consulting",
-              "type": "PAGE",
-              "link": "/homepage/consulting/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#6E5BD8"
-              }
-            },
-            {
-              "text": "Mobile App",
-              "type": "PAGE",
-              "link": "/homepage/app/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#FF4A32"
-              }
-            },
-            {
-              "text": "Marketing",
-              "type": "PAGE",
-              "link": "/homepage/marketing/",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
-                "color": "#3D8DFF"
+                "src": "../../assets/flexiblocks/icons/bx-lock-alt.svg",
+                "color": "#0e997e"
               }
             }
           ]
@@ -412,8 +277,8 @@
       "buttons": [
         {
           "text": "Contact Us",
-          "type": "MODAL",
-          "link": "contact",
+          "type": "PAGE",
+          "link": "/contact-us",
           "variant": "primary"
         }
       ]

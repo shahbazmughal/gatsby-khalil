@@ -1,0 +1,19 @@
+.css-1m6sebd>.css-1nvnray-ContentImages>.gatsby-image-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 0;
+}
+.cta-block:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #33a189;
+    display: block;
+    z-index: 3;
+    opacity: 0.75;
+}

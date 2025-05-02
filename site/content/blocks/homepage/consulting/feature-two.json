@@ -1,43 +1,30 @@
 {
   "text": [
     {
-      "text": "OVER 15,000+ LEADS GENERATED",
-      "color": "omegaDark",
-      "variant": "h4"
+      "text": "Largely Trusted by Digital Natives Worldwide",
+      "color": "#c9f2eb",
+      "variant": "h3"
     },
+    
     {
-      "text": "Get **More Conversions** With Our Services",
-      "variant": "h2"
-    },
-    {
-      "text": "Lorem ipsum dolor sit amet, consectetur magna aliqua. Eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem voluptas. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-      "variant": "medium"
+      "text": "Companies and brands across the globe trust Mumara to help them capitalize on the potential of existing clientele and find out new markets to their wings.",
+      "variant": "h4",
+      "color": "white"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/consulting/feature-two.jpg",
+      "src": "../../../assets/flexiblocks/home/footer.jpg",
       "alt": "alt text",
       "radius": "lg"
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/consulting/feature-two-overlay.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInRight", "float"],
-      "position": {
-        "top": "15%",
-        "left": "-5%"
-      }
     }
   ],
   "buttons": [
     {
-      "text": "Get Started",
+      "text": "Ask a Question?",
       "type": "MODAL",
-      "link": "authentication",
-      "variant": "secondary-light"
+      "link": "https://www.mumara.com/contact-us/",
+      "variant": "primary-light"
     }
   ]
 }

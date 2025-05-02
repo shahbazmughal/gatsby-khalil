@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'theme-ui'
-import SVG from 'react-inlinesvg'
-import gatsbySVG from '../../assets/Gatsby-Logo.svg'
+import { Box, Link } from 'theme-ui'
+import { Link as GLink } from 'gatsby'
+import gatsbySVG from '../../assets/download.png'
 
 const styles = {
   link: {
     display: `inline-flex`,
+    alignItems: `center`,
     color: `heading`,
     fontWeight: `medium`,
     textDecoration: `none`,
@@ -15,24 +16,20 @@ const styles = {
     ':hover': {
       color: `#663399`
     },
-    svg: {
+    img: {
       height: 24,
-      ml: 2
     }
   }
 }
 
-const PoweredByGatsby = () => (
-  <Link
-    target='_blank'
-    title='Gatsby'
-    href='https://www.gatsbyjs.org'
-    rel='noopener'
-    sx={styles.link}
-  >
-    Powered By
-    {gatsbySVG && <SVG src={gatsbySVG} />}
-  </Link>
-)
+const PoweredByGatsby = () => {
+  return (
+    <Box pb={1} mb={2} mt={[2, 0]}>
+      <GLink to="/" style={styles.link}>
+        <img src={gatsbySVG} alt="Gatsby Logo" style={styles.link.img} />
+      </GLink>
+    </Box>
+  )
+}
 
 export default PoweredByGatsby

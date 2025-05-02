@@ -5,28 +5,46 @@
       "alt": "alt text"
     }
   ],
+  "image2": [
+    {
+      "src": "../../assets/flexiblocks/home/download.png",
+      "alt": "alt text"
+    }
+  ],
   "collection": [
     {
       "text": [
         {
-          "text": "Quick Links"
+          "text": "Apps"
         }
       ],
       "buttons": [
         {
-          "text": "Home",
+          "text": "Campaigns",
           "type": "ANCHOR",
           "link": "#hero",
           "variant": "links.nav-light"
         },
         {
-          "text": "Blog",
+          "text": "ONE",
           "type": "MODAL",
           "link": "advertisement",
           "variant": "links.nav-light"
         },
         {
-          "text": "Contact Us",
+          "text": "SMS+",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "SMS",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Classic",
           "type": "MODAL",
           "link": "contact",
           "variant": "links.nav-light"
@@ -36,24 +54,63 @@
     {
       "text": [
         {
-          "text": "Legal Stuff"
+          "text": "RESOURCES"
         }
       ],
       "buttons": [
         {
-          "text": "Privacy Notice",
+          "text": "Community",
           "type": "PAGE",
           "link": "",
           "variant": "links.nav-light"
         },
         {
-          "text": "Cookie Policy",
+          "text": "School",
           "type": "PAGE",
           "link": "",
           "variant": "links.nav-light"
         },
         {
-          "text": "Terms Of Use",
+          "text": "Docs",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Publication",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Developers",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "COMPANY"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "About us",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Terms of Services",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Privacy Policy",
           "type": "PAGE",
           "link": "",
           "variant": "links.nav-light"
@@ -68,13 +125,13 @@
       ],
       "buttons": [
         {
-          "text": "Github",
+          "text": "facebook",
           "type": "PAGE",
-          "link": "https://github.com/gatsby",
+          "link": "https://instagram.com/gatsby",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
-            "color": "#2f4f4f"
+            "src": "../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "color": "#1877f2"
           }
         },
         {
@@ -96,7 +153,17 @@
             "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
             "color": "#c13584"
           }
-        }
+        },
+        {
+          "text": "Github",
+          "type": "PAGE",
+          "link": "https://github.com/gatsby",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
+            "color": "#2f4f4f"
+          }
+        } 
       ]
     }
   ]
