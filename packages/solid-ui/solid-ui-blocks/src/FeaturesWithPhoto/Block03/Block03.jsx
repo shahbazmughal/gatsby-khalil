@@ -5,6 +5,7 @@ import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
+import './style.css'
 
 const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
   <Box
