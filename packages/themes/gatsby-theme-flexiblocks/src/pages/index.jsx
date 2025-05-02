@@ -38,7 +38,6 @@ const HomePage = props => {
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
       <Menu content={content['header']} />
-      {/* <Header content={content['header']} /> */}
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
       </Container>

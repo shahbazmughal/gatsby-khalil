@@ -22,7 +22,7 @@ const HeroBlock01 = ({
   content: { text = [], images, buttons, form, collection },
   reverse
 }) => (
-  <Container sx={{ py: [3, 4, 5] }}>
+  <Container sx={{ py: [2, 3, 4] }}>
     <Flex
       sx={{
         alignItems: [null, null, null, `center`],

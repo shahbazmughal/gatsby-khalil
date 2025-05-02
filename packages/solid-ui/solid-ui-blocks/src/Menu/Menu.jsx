@@ -17,7 +17,7 @@ const styles = {
       //position: `fixed`,
       transition: `all 250ms ease-in`,
       // overflow: `hidden`,
-      py: 3
+      pt: 3
     },
     '.nav-sticky .nav-container': {
       bg: `headerActiveBg`,
