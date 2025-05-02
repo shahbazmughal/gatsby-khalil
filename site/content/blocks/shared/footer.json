@@ -141,7 +141,7 @@
           }
         },
         {
-          "text": "Instagram",
+          "text": "Youtube",
           "type": "PAGE",
           "target" : "_blank",
           "link": "https://www.youtube.com/channel/UC1k6voQOVss0_PWg7CfJTdw",
@@ -152,7 +152,7 @@
           }
         },
         {
-          "text": "Github",
+          "text": "Linkedin",
           "type": "PAGE",
           "target" : "_blank",
           "link": "https://www.linkedin.com/company/mumara/posts/?feedView=all",
