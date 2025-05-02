@@ -5,12 +5,6 @@
       "alt": "alt text"
     }
   ],
-  "image2": [
-    {
-      "src": "../../assets/flexiblocks/home/download.png",
-      "alt": "alt text"
-    }
-  ],
   "collection": [
     {
       "text": [
@@ -127,7 +121,8 @@
         {
           "text": "facebook",
           "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
+          "target" : "_blank",
+          "link": "https://www.facebook.com/MumaraApps/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../assets/flexiblocks/icons/bxl-facebook.svg",
@@ -137,7 +132,8 @@
         {
           "text": "Twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/gatsby",
+          "target" : "_blank",
+          "link": "https://twitter.com/MumaraApps",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
@@ -147,20 +143,22 @@
         {
           "text": "Instagram",
           "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
+          "target" : "_blank",
+          "link": "https://www.youtube.com/channel/UC1k6voQOVss0_PWg7CfJTdw",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
+            "src": "../../assets/flexiblocks/icons/bx-mail-youtube.svg",
             "color": "#c13584"
           }
         },
         {
           "text": "Github",
           "type": "PAGE",
-          "link": "https://github.com/gatsby",
+          "target" : "_blank",
+          "link": "https://www.linkedin.com/company/mumara/posts/?feedView=all",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
+            "src": "../../assets/flexiblocks/icons/bx-mail-linkedin.svg",
             "color": "#2f4f4f"
           }
         } 

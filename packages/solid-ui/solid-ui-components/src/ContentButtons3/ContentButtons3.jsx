@@ -4,7 +4,7 @@ import Icon from '@solid-ui-components/ContentIcon'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import { ModalContext } from '@solid-ui-components/Modal'
 import { TabsContext } from '@solid-ui-components/Tabs'
-import { buildLinkProps } from '@solid-ui-components/ContentButtons'
+import { buildLinkProps } from '@solid-ui-components/ContentButtons3'
 import { BiChevronDown } from 'react-icons/bi'
 
 const styles = {
@@ -125,7 +125,8 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
       <Box sx={{ display: `inline-block` }}>
         <Icon content={icon} size='xs' mr='1' /> {text}
       </Box>
-      <Box className="hnav-desc" sx={{display: `table-caption`, color: `#718096`, fontSize: `0.75rem`, fontWeight:`normal`, whiteSpace:`normal`, wordBreak:`normal`}}>
+      <Box className="hnav-desc" sx={{display: `table-caption`, color: `#718096`, fontSize: `0.75rem`, fontWeight:`normal`,
+    whiteSpace: `normal`, wordBreak:`normal`}}>
         <span>{bg}</span>
       </Box>
 
@@ -181,7 +182,7 @@ const ContentButton = ({ content, level = 1 }) => {
   )
 }
 
-const ContentButtons = ({ content, variant, wrapperStyles }) =>
+const ContentButtons3 = ({ content, variant, wrapperStyles }) =>
   content ? (
     <>
       <Box sx={{ ...styles[variant], ...wrapperStyles }}>
@@ -196,8 +197,8 @@ const ContentButtons = ({ content, variant, wrapperStyles }) =>
     </>
   ) : null
 
-export default ContentButtons
+export default ContentButtons3
 
-ContentButtons.defaultProps = {
+ContentButtons3.defaultProps = {
   variant: 'horizontal'
 }
