@@ -9,7 +9,7 @@ const FeaturesWithPhotoBlock01 = ({
   <Container sx={{ position: 'relative' }}>
 
     {/* Top Text */}
-    <Box sx={{ textAlign: 'center',width: '100%', maxWidth:'850px',mx:'auto' , py: 5}}> {/* Adjusted mx for responsiveness */}
+    <Box sx={{ textAlign: 'center',width: '100%', maxWidth:'850px',mx:'auto' , pt: 5}}>
       <ContentText content={text} />
     </Box>
     </Container>

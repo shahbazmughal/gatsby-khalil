@@ -27,16 +27,17 @@ const FeaturesWithPhotoBlock01 = ({
     width: '100%',
     mx: 'auto',
     objectFit: 'contain',
-    flexDirection: ['column', null, 'row'], 
-    alignItems: 'left',
-    justifyContent: 'space-between', 
+    flexDirection: ['column', null, 'row'],
+    alignItems: 'flex-start', 
+    justifyContent: 'space-between',
+    gap: [4, null, 4], 
   }}
 >
-  <FlexContent reverse={reverse} sx={{ width: ['100%', null, '50%'], order: [2, null, 1] }}> {/* Adjust width and order */}
+  <FlexContent reverse={reverse} sx={{ width: ['100%', null, '50%'], order: [2, null, 1] }}>
     {collection && (
       <>
         <Divider space={3} />
-        <Box sx={{ flexGrow: 1, mr: [0, null, 3] }}> {/* Adjust margin for larger screens */}
+        <Box sx={{ flexGrow: 1, mr: [0, null, 3] }}>
           {collection.map((props, index) => (
             <ListItem key={`item-${index}`} {...props} compact />
           ))}
@@ -45,7 +46,7 @@ const FeaturesWithPhotoBlock01 = ({
     )}
   </FlexContent>
 
-  <FlexImage reverse={reverse} sx={{ width: ['100%', null, '50%'], order: [1, null, 2] }}> {/* Adjust width and order */}
+  <FlexImage reverse={reverse} sx={{ width: ['100%', null, '50%'], order: [1, null, 2] }}>
     <Box sx={{ width: '100%', maxWidth: '100%', overflow: 'hidden' }}>
       <ContentImages content={{ images }} />
     </Box>

@@ -47,6 +47,7 @@ const HomePage = props => {
         <FeatureOne content={content['feature-one']} />
         <FeatureOnetext content={content['feature-one-text']} />
       </Container>
+      <Divider space='5' />
       <Container variant='wide' sx={styles.chooseUsContainer}>
         <WhyChooseUs content={content['why-choose-us']} />
       </Container>

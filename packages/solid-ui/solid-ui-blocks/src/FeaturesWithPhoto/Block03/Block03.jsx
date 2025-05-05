@@ -49,7 +49,7 @@ const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundColor: 'rgb(24, 137, 125)', 
+            backgroundColor: 'rgb(24, 137, 125)',
             opacity: 0.1,
             zIndex: 2,
           }}
@@ -73,7 +73,10 @@ const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
         <ContentText
           content={text}
           sx={{
-            mx: [400]
+            textAlign: 'center',
+            width: '100%', 
+            maxWidth:'850px',
+            mx:'auto'
           }}
         />
       </Reveal>

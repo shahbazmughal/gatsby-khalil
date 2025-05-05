@@ -46,7 +46,7 @@ const FeaturesWithPhotoBlock04 = ({
           ))}
         </Reveal>
       </Box>
-      <Box sx={{ flexBasis: `1/3`, position: `relative`, my: [4, 0] }}>
+      <Box sx={{ flexBasis: `1/3`, position: `relative`, my: [4, 0], mx: 'auto' }}>
         <ContentImages content={{ images }} imageEffect='fadeInUp' />
       </Box>
       <Box
