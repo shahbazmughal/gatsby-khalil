@@ -19,6 +19,8 @@ import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Testimonials from '@solid-ui-blocks/Testimonials/Block02'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import Menu from '@solid-ui-blocks/Menu'
+import Main from '@solid-ui-blocks/SEO/Main'
+import Base from '@solid-ui-blocks/SEO/Base'
 import FeatureOnetext from '@solid-ui-blocks/FeaturesWithPhoto/Block08'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -32,7 +34,7 @@ const HomePage = props => {
 
   return (
     <Layout theme={theme} {...props}>
-      <Seo title='Home' />
+      <Seo title='Marketing Automation & Customer Engagement Tools' description="Transform your email and SMS marketing with Mumara's powerful automation tools. Boost engagement, optimize campaigns, and achieve better results." keywords="Email marketing, marketing automation, customer engagement, email campaigns, automation software, marketing tools, digital marketing, lead generation" image="https://post.mumara.com/images/mumara-home.jpg" image2="https://post.mumara.com/images/mumara-home.jpg" canonical="https://www.mumara.com/" favicon="https://www.mumara.com/favicon.ico" />
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
@@ -76,6 +78,8 @@ const HomePage = props => {
        <Divider space='3' />
       <FeatureTwo content={content['feature-two']} reverse />
       <Footer content={content['footer']} />
+      <Main />
+      <Base />
     </Layout>
   )
 }
