@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Build up complete profiles of the contacts by adding **custom fields**",
+      "variant": "h2"
+    },
+    {
+      "text": "A contact is not just limited to the email address and name, but a complete profile can be stored. Mumara comes up with a set of pre-defined commonly used fields that can be modified and enhanced by adding more custom fields. Moreover, these profile fields are very important in personalizing the email content that these contacts will receive.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/custom-fields.png",
+      "alt": "alt text",
+      "shadow": "default"
+    }
+  ]
+}

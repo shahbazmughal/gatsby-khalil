@@ -25,7 +25,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/florrie-jacobs-large.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/florrie-jacobs-large.png",
         "alt": "alt text"
       }
     },
@@ -45,7 +45,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/john-doe.png",
         "alt": "alt text"
       }
     },
@@ -65,7 +65,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/alex-jones.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/alex-jones.png",
         "alt": "alt text"
       }
     },
@@ -85,7 +85,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/alex-jones-large.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/alex-jones-large.png",
         "alt": "alt text"
       }
     },
@@ -105,7 +105,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/john-doe-large.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/john-doe-large.png",
         "alt": "alt text"
       }
     },
@@ -125,7 +125,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/jane-smith.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/jane-smith.png",
         "alt": "alt text"
       }
     },
@@ -145,7 +145,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/steve-grant-large.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/steve-grant-large.png",
         "alt": "alt text"
       }
     },
@@ -165,7 +165,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/florrie-jacobs.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/florrie-jacobs.png",
         "alt": "alt text"
       }
     },
@@ -185,7 +185,7 @@
         }
       ],
       "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/sarah-doe-large.png",
+        "src": "https://kg.shahbaz.jt.mumara.dev/images/testimonials/sarah-doe-large.png",
         "alt": "alt text"
       }
     }

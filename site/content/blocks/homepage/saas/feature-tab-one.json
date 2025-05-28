@@ -1,81 +1,19 @@
 {
   "text": [
     {
-      "text": "GROW YOUR BUSINESS",
-      "color": "omegaDark",
-      "variant": "h4"
-    },
-    {
-      "text": "**Innovative Features** Integrated for Teams",
+      "text": "Classify the data by creating multiple **contact lists**",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna aliqua.",
+      "text": "Mumara lets you create multiple contact lists for the classification of the contacts. A number of lists can be created depending upon niches, geo, products, interests, etc. Get freedom from the hassle of managing contacts tardily and focus on what is ought to be sent to those contacts.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-one.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/contact-list.png",
       "alt": "alt text",
-      "radius": "lg",
       "shadow": "default"
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-one-overlay-two.png",
-      "alt": "alt text",
-      "effects": ["fadeInDown", "float"],
-      "position": {
-        "bottom": "-15%",
-        "left": "15%"
-      }
-    },
-    {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-one-overlay-one.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInUp", "floatFaster"],
-      "position": {
-        "top": "-20%",
-        "right": "17.5%"
-      }
-    }
-  ],
-  "collection": [
-    {
-      "text": [
-        {
-          "text": "15+",
-          "color": "beta",
-          "variant": "h2",
-          "space": 1
-        },
-        {
-          "text": "Advanced Panel",
-          "variant": "h6"
-        },
-        {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "10+",
-          "color": "beta",
-          "variant": "h2",
-          "space": 1
-        },
-        {
-          "text": "Report Metrics",
-          "variant": "h6"
-        },
-        {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua."
-        }
-      ]
     }
   ]
 }

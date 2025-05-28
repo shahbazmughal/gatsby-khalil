@@ -1,8 +1,7 @@
 import React from 'react'
-import { Container, Flex, Box } from 'theme-ui'
+import { Flex, Box } from 'theme-ui'
+import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import ProgressBar from '@solid-ui-components/ProgressBar'
-import Counter from '@solid-ui-components/Counter'
 import FlexImage from '@solid-ui-components/FlexImage'
 import FlexContent from '@solid-ui-components/FlexContent'
 import FlexOverlapFade from '@solid-ui-components/FlexOverlapFade'
@@ -11,74 +10,66 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const FeaturesWithPhotoBlock06 = ({
-  content: { text, images, collection, buttons },
+const styles = {
+  items: {
+    flexWrap: `wrap`,
+    mx: [-2, -4],
+    '& > div': {
+      flex: 1,
+      textAlign: [`center`, `unset`]
+    }
+  }
+}
+
+const FeaturesWithPhotoBlock05 = ({
+  content: { text, images },
   reverse
 }) => (
-  <Container sx={{ position: `relative` }}>
-    <Flex
-      sx={{
-        alignItems: [null, `center`],
-        flexDirection: [
-          reverse ? `column-reverse` : `column`,
-          reverse ? `row-reverse` : `row`
-        ],
-        mx: [null, null, null, -4]
-      }}
-    >
-      <FlexImage reverse={reverse}>
-        <ContentImages content={{ images }} reverse={reverse} />
-      </FlexImage>
-      <FlexContent reverse={reverse}>
-        <Box sx={{ textAlign: [`center`, `left`] }}>
-          <ContentText content={text} />
-        </Box>
-        {collection && (
-          <>
-            <Divider space={3} />
-            {collection.map(({ text }, index) => (
-              <Box key={`item-${index}`} mb='4'>
-                <Flex
-                  sx={{
-                    justifyContent: `space-between`,
-                    alignItems: `center`,
-                    mb: 3,
-                    px: 2
-                  }}
-                >
-                  <Box>
-                    <ContentText content={text?.slice(0, 2)} />
-                  </Box>
-                  <ContentText
-                    content={text?.[2]}
-                    variant='h2'
-                    sx={{ color: `omegaDarker` }}
-                    mb='0'
-                    pl='3'
-                  >
-                    <Counter from='0' to={text?.[2]?.text} duration={2} />%
-                  </ContentText>
-                </Flex>
-                <ProgressBar
-                  color={text?.[2]?.color || undefined}
-                  from='0%'
-                  to={text?.[2]?.text}
-                  duration={2}
-                />
-              </Box>
-            ))}
-          </>
-        )}
-        {buttons && (
-          <>
-            <Divider space={3} />
-            <ContentButtons content={buttons} />
-          </>
-        )}
-      </FlexContent>
-    </Flex>
-    <FlexOverlapFade direction={reverse ? 'ltr' : 'rtl'} />
-  </Container>
-)
+  <>
+  <Box sx={{ bg: '#f7f9fa', width: '100%', py: [5, 6] }}>
+    <Box sx={{ position: 'relative' }}>
+      <Flex
+        sx={{
+          maxWidth: '1200px',     
+          margin: '0 auto',           
+          alignItems: 'center',
+          flexDirection: [
+            reverse ? 'column-reverse' : 'column',
+            reverse ? 'row-reverse' : 'row'
+          ],
+        }}
+      >
+        <FlexImage reverse={reverse}>
+          <ContentImages
+            content={{ images }}
+            reverse={reverse}
+            sx={{
+              img: {
+                width: 'auto',
+                maxWidth: '100%',
+                boxShadow: 'none'
+              }
+            }}
+          />
+        </FlexImage>
 
-export default WithDefaultContent(FeaturesWithPhotoBlock06)
+        <FlexContent reverse={reverse}>
+          <Box sx={{
+            textAlign: ['center', 'left'],
+            width: '100%',
+            maxWidth: '550px', 
+            mx: 'auto'
+          }}>
+            <ContentText content={text} />
+          </Box>
+        </FlexContent>
+      </Flex>
+    </Box>
+    <FlexOverlapFade direction={reverse ? 'ltr' : 'rtl'} />
+  </Box>
+  <FlexOverlapFade direction={reverse ? 'ltr' : 'rtl'} />
+  </>
+);
+
+
+export default WithDefaultContent(FeaturesWithPhotoBlock05)

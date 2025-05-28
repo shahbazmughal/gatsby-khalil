@@ -1,0 +1,32 @@
+{
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Campaigns",
+          "type": "PAGE",
+          "link": "/campaigns",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Features",
+          "type": "PAGE",
+          "link": "/campaigns/features/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Pricing",
+          "type": "PAGE",
+          "link": "/campaigns/pricing/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Request a Demo",
+          "type": "PAGE",
+          "link": "/campaigns/request-demo/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    }
+  ]
+}

@@ -1,122 +1,72 @@
 import React from 'react'
-import { Container, Flex, Box, css } from 'theme-ui'
+import { Container, Flex, Box, Image, Grid } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import Reveal from '@solid-ui-components/Reveal'
-import Divider from '@solid-ui-components/Divider'
-import ContentImages from '@solid-ui-components/ContentImages'
-import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
-import ListItem from '@solid-ui-components/ListItem'
-import Icon from '@solid-ui-components/ContentIcon'
+import ContentIcon from '@solid-ui-components/ContentIcon'
+import InlineSVG from 'react-inlinesvg';
 
-const styles = {
-  listItem: {
-    flex: `1 1 0`,
-    minWidth: 300,
-    p: 3
-  }
-}
+const HeroBlock02 = ({ content: { text = [], leftSide = [], rightSideImages = [], buttons } }) => (
+  <Container>
+    <Grid gap={4} columns={[1, null, 2]} sx={{ alignItems: 'center' }}>
+    <Box sx={{ textAlign: ['center', null, 'left'], maxWidth: '80%' }}>
+  <Reveal effect="fadeInDown">
+    <ContentText content={text} />
+  </Reveal>
 
-const HeroBlock01 = ({
-  content: { text = [], images, buttons, form, collection },
-  reverse
-}) => (
-  <Container sx={{ py: [2, 3, 4] }}>
+  {leftSide && (
     <Flex
       sx={{
-        alignItems: [null, null, null, `center`],
-        flexDirection: [
-          reverse ? `column-reverse` : `column`,
-          null,
-          null,
-          reverse ? `row-reverse` : `row`
-        ]
+        flexDirection: 'column',
+        alignItems: ['center', null, 'flex-start']
       }}
     >
-      <Box
-        sx={{
-          flexBasis: [null, null, null, `3/5`],
-          [reverse ? 'ml' : 'mr']: [null, null, null, 5],
-          position: `relative`,
-          textAlign: `center`
-        }}
-      >
-        <ContentImages
-          content={{ images }}
-          loading='eager'
-          reverse={reverse}
-          imagePosition='center'
-        />
-      </Box>
-      <Box
-        sx={{
-          flexBasis: `2/5`,
-          textAlign: [`center`, null, null, `left`]
-        }}
-      >
-        <Reveal effect='fadeInDown'>
-          <ContentText content={text} />
-        </Reveal>
-        {collection && (
-          <>
-            <Flex sx={{ flexWrap: `wrap` }} m={-3}>
-              {collection.map(
-                ({ text, icon, collection, buttons, container }, index) => (
-                  <Reveal
-                    key={`item-${index}`}
-                    effect='fadeInGrow'
-                    delay={0.15 * (index + 1)}
-                    css={css(styles.listItem)}
-                  >
-                      <Icon content={icon} size='md' mr='3' mb='3' />
-                      <ContentText content={text?.[0]} />
-                      <Flex sx={{ alignItems: `center`, flexWrap: `wrap` }}>
-                        <ContentText
-                          content={text?.slice(1)}
-                          sx={styles.itemDescription}
-                          mt={[3, null, 0]}
-                        />
-                        {collection && (
-                          <Box sx={{ flexGrow: 1, mr: [3, null, 0] }}>
-                            {collection.map((props, index) => (
-                              <ListItem key={`item-${index}`} {...props} compact />
-                            ))}
+      {leftSide.map(({ icon, text: itemText }, index) => {
+        const isSvg = icon?.src?.toLowerCase().endsWith('.svg');
+        return (
+          <Reveal key={`left-item-${index}`} effect="fadeInLeft" delay={index * 0.2}>
+            <Flex sx={{ alignItems: 'center', mb: 1 }}>
+                      {icon?.src && (
+                        isSvg ? (
+                          <Box sx={{ width: 30, height: 30, mr: 2 }}>
+                            <img src={icon.src} alt={icon.alt} style={{width: '100%', height: '100%'}}/>
                           </Box>
-                        )}
-                      </Flex>
-                  </Reveal>
-                )
-              )}
-            </Flex>
-          </>
-        )}
-        {buttons && (
-          <Reveal
-            effect='fadeInRight'
-            delay={1}
-            css={css({ mb: [4, null, null, 0] })}
-          >
-            {buttons && (
-              <>
-                <Divider space={3} />
-                <ContentButtons content={buttons} />
-              </>
-            )}
+                        ) : (
+                          <ContentIcon content={icon} size="md" mr={1} />
+                        )
+                      )}
+                      {itemText && <ContentText content={itemText} sx={{ fontSize: 1 }} />}
+                    </Flex>
           </Reveal>
-        )}
-        {form && (
-          <Reveal
-            effect='fadeInRight'
-            delay={1}
-            css={css({ mb: [4, null, null, 0] })}
-          >
-            <QuickSignupForm {...form} space={3} />
-          </Reveal>
-        )}
-      </Box>
+        );
+      })}
     </Flex>
+  )}
+
+  {buttons && (
+    <Reveal effect="fadeInUp" delay={0.4}>
+      <Flex sx={{ justifyContent: ['center', null, 'flex-start'], mt: 4 }}>
+        <ContentButtons content={buttons} />
+      </Flex>
+    </Reveal>
+  )}
+</Box>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+          position: `relative`}}>
+        {rightSideImages &&
+          rightSideImages.map(({ src, alt, title, position, effects }, index) => (
+            <>
+              {
+                position ?
+                <Reveal style={{position: 'absolute', top: position?.top || "auto", bottom: position?.bottom || "auto", left: position?.left || "auto", right: position?.right || "auto"}} key={`right-image-${index}`} effect={effects?.[0]} delay={index * 0.15}><img title={title} effects={effects} src={src} alt={alt} sx={{ maxWidth: '100%', height: 'auto', maxHeight: 200, m: 2, borderRadius: 'md', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} /> </Reveal>
+                : <Reveal key={`right-image-${index}`} effect={effects?.[0] || "fadeIn"} delay={index * 0.15}><img title={title} effects={effects} src={src} alt={alt} sx={{ maxWidth: '100%', height: 'auto', maxHeight: 200, m: 2, borderRadius: 'md', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} /></Reveal>
+              }
+            </>
+          ))}
+      </Box>
+    </Grid>
   </Container>
 )
 
-export default WithDefaultContent(HeroBlock01)
+export default WithDefaultContent(HeroBlock02)

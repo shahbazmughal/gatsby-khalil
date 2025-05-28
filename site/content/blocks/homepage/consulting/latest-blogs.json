@@ -24,7 +24,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/home/1.jpg",
+          "src": "https://kg.shahbaz.jt.mumara.dev/images/home/1.jpg",
           "alt": "alt text"
         }
       ]
@@ -47,7 +47,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/home/2.jpg",
+          "src": "https://kg.shahbaz.jt.mumara.dev/images/home/2.jpg",
           "alt": "alt text"
         }
       ]
@@ -70,7 +70,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/home/3.jpg",
+          "src": "https://kg.shahbaz.jt.mumara.dev/images/home/3.jpg",
           "alt": "alt text"
         }
       ]

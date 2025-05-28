@@ -28,20 +28,30 @@ const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
           position: 'absolute',
           top: 0,
           left: 0,
+          right: 0,
+          bottom: 0,
           width: '100%',
           height: '100%',
           zIndex: 1,
+          overflow: 'hidden'
         }}
       >
-        {/* Background image */}
-        <ContentImages
-          content={{ images }}
-          loading="eager"
-          imagePosition="center"
-          imageEffect="fadeInDown"
+        {/* Direct Background Image */}
+        <img
+          src={images[0]?.src}
+          alt="Background"
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            zIndex: 1
+          }}
         />
 
-        {/* Transparent Overlay */}
+        {/* Overlay */}
         <Box
           sx={{
             position: 'absolute',
@@ -50,7 +60,7 @@ const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
             width: '100%',
             height: '100%',
             backgroundColor: 'rgb(24, 137, 125)',
-            opacity: 0.1,
+            opacity: 0.1, // You can adjust opacity
             zIndex: 2,
           }}
         />

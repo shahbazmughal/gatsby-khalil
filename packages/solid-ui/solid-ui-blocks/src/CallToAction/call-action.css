@@ -1,0 +1,100 @@
+.call-action {
+    display: block;
+    position: relative;
+    padding: 35px;
+    background: #2d3748;
+    /* background: radial-gradient(circle at top left,#009688 0%,#096050 60%);
+    background-color: #096050; */
+    box-shadow: 0 48px 48px -32px rgb(9 96 80 / 20%), 0 96px 96px -64px rgb(9 96 80 / 40%);
+}
+.call-action .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.call-action .container .cta-content {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: 'Poppins',sans-serif;
+}
+.call-action .css-12hibeq {
+    font-weight: 600;
+}
+
+button.css-18252t6 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: inherit;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    background-color: primary;
+    border: 0;
+    border-radius: 4px;
+    font-family: 'Poppins',sans-serif;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    min-width: 10rem;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 2rem;
+    cursor: pointer;
+    white-space: pre;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    position: relative;
+    z-index: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #0f977e;
+    position: relative;
+}
+button.css-18252t6::after {
+    z-index: -2;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -ms-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-timing-function: cubic-bezier(0.47,2.02,0.31,0.1);
+    transition-timing-function: cubic-bezier(0.47,2.02,0.31,0.1);
+    background-color: #b6ece2;
+    border-color: #b6ece2;
+}
+button.css-18252t6 .css-12hibeq {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: inline-block;
+}
+button.css-18252t6:hover::after {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition-timing-function: cubic-bezier(0.47,2.02,0.31,0.1);
+    transition-timing-function: cubic-bezier(0.47,2.02,0.31,0.1);
+}

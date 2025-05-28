@@ -1,23 +1,5 @@
 {
-  "text": [
-    {
-      "text": "HIGH IMPACT RESULTS",
-      "color": "alpha",
-      "variant": "h4"
-    },
-    {
-      "text": "Strategies Focused on Your Performance",
-      "variant": "h2"
-    },
-    {
-      "text": "Understand First. Lorem ipsum dolor sit amet.",
-      "variant": "medium"
-    },
-    {
-      "text": "We help our clients achieve tangible, high-impact results.",
-      "variant": "medium"
-    }
-  ],
+
   "collection": [
     {
       "container": {
@@ -25,17 +7,17 @@
       },
       "text": [
         {
-          "text": "Messaging",
+          "text": "**Sorting/re-sorting** the contact lists into groups",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "A contact list can be assigned to a group. It also gives an opportunity to sort in different ways by using the “Drag and Drop” feature in the tree-view, needed or deemed to be more suitable."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-message-detail.svg",
-        "bg": "#D3E7FE",
+        "src": "../../../assets/flexiblocks/iconss/bx-hive.svg",
+        "bg": "#fff2dd",
         "color": "#276BF0"
       }
     },
@@ -45,17 +27,17 @@
       },
       "text": [
         {
-          "text": "Reminders",
+          "text": "**Tree-view** display for better categorization",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Contact lists can be displayed in a tree-view hierarchy which displays the contact lists grouped together based on the groups. In another way, it can be called folder-view of the contact lists."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-alarm-snooze.svg",
-        "bg": "#FEFAD6",
+        "src": "../../../assets/flexiblocks/iconss/bx-directions.svg",
+        "bg": "#fee9e3",
         "color": "#F4D133"
       }
     },
@@ -65,17 +47,17 @@
       },
       "text": [
         {
-          "text": "Video Calls",
+          "text": "**Merging** contact lists",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Create multiple chunks of a contact list by splitting it into two or more. Splitting a list can be done by defining the number of contacts per list and also by defining just the number of lists that will create the desired number of lists containing equal contacts."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-webcam.svg",
-        "bg": "#FEE8D1",
+        "src": "../../../assets/flexiblocks/iconss/bx-comment-detail.svg",
+        "bg": "#e5fcf3",
         "color": "#F7491D"
       }
     },
@@ -85,17 +67,57 @@
       },
       "text": [
         {
-          "text": "Organizer",
+          "text": "Split a **contact list** into multiple",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+          "text": "Create multiple chunks of a contact list by splitting it into multiple lists by the number of contacts or number of contact lists. It’s a useful case under certain circumstances when your list has been grown enough to overload your server."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-box.svg",
-        "bg": "#EBFDDA",
+        "src": "../../../assets/flexiblocks/iconss/bx-analyse.svg",
+        "bg": "#f5e7fe",
+        "color": "#64DB43"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Create **copies** of a contact list",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Make various copies of a contact list for multiple reasons. Mumara makes it easy to duplicate or create any number of copies of a contact list along with an option to copy the original contacts as well.Make various copies of a contact list for multiple reasons."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/iconss/bx-chat.svg",
+        "bg": "#e2e7ff",
+        "color": "#64DB43"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "**Dedupe contact list** with the database",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Deduping a contact list will eliminate the duplicated records from the list, or from all other contact lists. Removing duplicate records from a contact list will get rid of any emails already on the list, or from any other lists you may have."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/iconss/bx-data.svg",
+        "bg": "#fff3cf",
         "color": "#64DB43"
       }
     }

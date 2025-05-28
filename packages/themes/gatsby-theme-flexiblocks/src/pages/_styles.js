@@ -94,7 +94,7 @@ export default {
         position: `absolute`,
         content: `" "`,
         size: `full`,
-        top: `30%`,
+        top: `1%`,
         right: `0%`,
         zIndex: -1
       },

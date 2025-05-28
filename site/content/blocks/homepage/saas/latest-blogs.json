@@ -1,143 +1,65 @@
 {
-  "text": [
-    {
-      "text": "Latest From Our Blog",
-      "variant": "h2"
-    },
-    {
-      "text": "With FlexiBlog Theme, add a fully functional blog to your site.",
-      "variant": "medium"
-    }
-  ],
+
   "collection": [
     {
       "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "PAGE",
-          "link": "/test"
-        }
+        "variant": "cards.paper"
       },
       "text": [
         {
-          "text": "Innovation",
-          "color": "alphaDark"
-        },
-        {
-          "text": "Best Digital Marketing Stats We’ve Seen This Week",
+          "text": "**Prioritize** list columns",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "April 22, 2021"
-        },
-        {
-          "text": "5 min"
+          "text": "Rearrange the column listings on the view contacts page and select the fields that you want to be prioritized when sorting the column list. It is super helpful to view the desired data in a single table view."
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/sarah-doe.png",
-        "alt": "alt text"
-      },
-      "images": [
-        {
-          "src": "../../../assets/flexiblocks/blog/blog-1.jpg",
-          "alt": "alt text"
-        }
-      ]
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "bg": "#edf2f7",
+        "color": "#276BF0"
+      }
     },
     {
       "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "MODAL",
-          "link": "advertisement"
-        }
+        "variant": "cards.paper"
       },
       "text": [
         {
-          "text": "Management",
-          "color": "alphaDark"
-        },
-        {
-          "text": "A Marketer’s Guide to Price Comparison Websites",
+          "text": "Contact’s **timeline**",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "May 10, 2021"
-        },
-        {
-          "text": "10 min"
+          "text": "Keep track of the events performed on a contact e.g. emails sent, trigger actions, drip campaigns, field value changed, etc."
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
-        "alt": "alt text"
-      },
-      "images": [
-        {
-          "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
-          "alt": "alt text"
-        }
-      ]
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "#edf2f7",
+        "color": "#F4D133"
+      }
     },
     {
       "container": {
-        "variant": "cards.interactive",
-        "link": {
-          "type": "MODAL",
-          "link": "advertisement"
-        }
+        "variant": "cards.paper"
       },
       "text": [
         {
-          "text": "Case Studies",
-          "color": "alphaDark"
-        },
-        {
-          "text": "50 social impact innovations that might save the world",
+          "text": "**Bulk update** contacts",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Understand First. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
-        },
-        {
-          "text": "John Doe",
-          "color": "omegaDark"
-        },
-        {
-          "text": "March 16, 2021"
-        },
-        {
-          "text": "7 min"
+          "text": "Update the existing contacts by importing a CSV file consisting of the email addresses and change their parameters."
         }
       ],
-      "avatar": {
-        "src": "../../../assets/flexiblocks/testimonials/steve-grant.png",
-        "alt": "alt text"
-      },
-      "images": [
-        {
-          "src": "../../../assets/flexiblocks/blog/blog-3.jpg",
-          "alt": "alt text"
-        }
-      ]
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#edf2f7",
+        "color": "#F7491D"
+      }
     }
   ]
 }

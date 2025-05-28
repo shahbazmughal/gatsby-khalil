@@ -1,0 +1,97 @@
+/* Mitr 200 */
+@font-face {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./Mitr-ExtraLight.ttf") format('woff2');
+}
+/* Mitr 300 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./Mitr-Light.ttf") format('woff2');
+}
+/* Mitr 400 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Mitr-Regular.ttf") format('woff2');
+}
+/* Mitr 500 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./Mitr-Medium.ttf") format('woff2');
+}
+/* Mitr 600 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./Mitr-SemiBold.ttf") format('woff2');
+}
+/* Mitr 700 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Mitr-Bold.ttf") format('woff2');
+}
+
+/* Nunito 300 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./Nunito-Light.ttf") format('woff2');
+}
+/* Nunito 400 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Nunito-Regular.ttf") format('woff2');
+}
+/* Nunito 600 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./Nunito-SemiBold.ttf") format('woff2');
+}
+/* Nunito 700 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Nunito-Bold.ttf") format('woff2');
+}
+/* Nunito 800 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./Nunito-ExtraBold.ttf") format('woff2');
+}
+/* Nunito 900 */
+@font-face {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Nunito-Black.ttf") format('woff2');
+}

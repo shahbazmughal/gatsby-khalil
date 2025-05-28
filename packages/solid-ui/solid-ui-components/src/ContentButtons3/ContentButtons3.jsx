@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import { Box } from 'theme-ui'
-import Icon from '@solid-ui-components/ContentIcon'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import { ModalContext } from '@solid-ui-components/Modal'
 import { TabsContext } from '@solid-ui-components/Tabs'
@@ -38,7 +37,6 @@ const styles = {
     '& > svg': {
       size: `icon.xs`,
       position: [`absolute`, `static`],
-      right: 0,
       ml: `auto`
     }
   },
@@ -59,9 +57,8 @@ const styles = {
       transition: `all 250ms ease`,
       p: [3, null, 0],
       mt: [3, null, 0],
-      maxWidth:`600px`
+      maxWidth: `600px`
     },
-    // Single level
     '&.container-level-1.no-collection': {
       p: [3, null, 3],
       '.button-group-link': {
@@ -98,12 +95,12 @@ const styles = {
   }
 }
 
+// 🔧 Fixed: Icon rendering directly using <img />
 const ButtonComponent = ({ content, children, styles = {}, className }) => {
   const { setActiveModal } = useContext(ModalContext)
   const { setActiveTab } = useContext(TabsContext)
 
   const { type, text, link, target, variant, width, bg, icon } = content
-
   const { Component, linkProps } = buildLinkProps({
     content: { type, link, target, variant },
     setActiveModal,
@@ -115,18 +112,34 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
       variant={variant || 'primary'}
       sx={{
         width,
-        '::after': { bg, borderColor: bg},
+        '::after': { bg, borderColor: bg },
         position: `relative`,
         ...styles
       }}
       {...linkProps}
       className={[linkProps.className, className].join(' ')}
     >
-      <Box sx={{ display: `inline-block` }}>
-        <Icon content={icon} size='xs' mr='1' /> {text}
+      <Box sx={{ display: `inline-flex`, alignItems: 'center' }}>
+        {icon?.src && (
+          <img
+            src={icon.src}
+            alt={icon.alt || 'icon'}
+            style={{ width: 24, height: 24, marginRight: 8 }}
+          />
+        )}
+        {text}
       </Box>
-      <Box className="hnav-desc" sx={{display: `table-caption`, color: `#718096`, fontSize: `0.75rem`, fontWeight:`normal`,
-    whiteSpace: `normal`, wordBreak:`normal`}}>
+      <Box
+        className="hnav-desc"
+        sx={{
+          display: `table-caption`,
+          color: `#718096`,
+          fontSize: `0.75rem`,
+          fontWeight: `normal`,
+          whiteSpace: `normal`,
+          wordBreak: `normal`
+        }}
+      >
         <span>{bg}</span>
       </Box>
 
@@ -184,17 +197,11 @@ const ContentButton = ({ content, level = 1 }) => {
 
 const ContentButtons3 = ({ content, variant, wrapperStyles }) =>
   content ? (
-    <>
-      <Box sx={{ ...styles[variant], ...wrapperStyles }}>
-        {content?.map((content, index) => (
-          <ContentButton
-            key={`item-${index}`}
-            index={index}
-            content={content}
-          />
-        ))}
-      </Box>
-    </>
+    <Box sx={{ ...styles[variant], ...wrapperStyles }}>
+      {content.map((content, index) => (
+        <ContentButton key={`item-${index}`} index={index} content={content} />
+      ))}
+    </Box>
   ) : null
 
 export default ContentButtons3

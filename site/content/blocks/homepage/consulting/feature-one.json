@@ -20,7 +20,7 @@
     {
       "icon": {
         "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
-        "color": "#718096"
+        "alt": "#718096"
       },
       "text": [
         {

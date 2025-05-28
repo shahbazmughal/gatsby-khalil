@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Bulk actions** to update contacts statuses",
+      "variant": "h2"
+    },
+    {
+      "text": "Perform bulk actions to the contact lists e.g. change subscription or confirmation status, set to active/inactive, set as previously bounded, etc. The bulk update is super useful when a global change is required in the subscription list.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/saas/bulk-update.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ]
+}

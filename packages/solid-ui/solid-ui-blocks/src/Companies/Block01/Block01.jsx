@@ -34,8 +34,6 @@ import React from 'react'
 
   return (
   <Container sx={styles.container}>
-  <ContentText content={text} />
-  {text && collection && <Divider sx={{ my: 3 }} />} {/* Added margin to the divider */}
   <Flex sx={styles.flex}>
   {collection?.map(({ text, icon }, index) => (
   <Box key={`item-${index}`} sx={styles.box}>
@@ -53,12 +51,6 @@ import React from 'react'
   </Box>
   ))}
   </Flex>
-  {buttons && (
-  <>
-  <Divider sx={{ my: 3 }} /> {/* Added margin to the divider */}
-  <ContentButtons content={buttons} />
-  </>
-  )}
   </Container>
   )
  }

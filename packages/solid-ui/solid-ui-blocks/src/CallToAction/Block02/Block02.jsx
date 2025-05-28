@@ -74,13 +74,6 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
         </Reveal>
       </>
     )}
-
-    {buttons && (
-      <>
-        <Divider space={3} />
-        <ContentButtons content={buttons} sx={{ justifyContent: 'center' }} /> {/* Center the buttons */}
-      </>
-    )}
   </Container>
 );
 

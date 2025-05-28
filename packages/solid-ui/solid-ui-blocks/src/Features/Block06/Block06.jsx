@@ -61,7 +61,7 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
     {buttons && (
       <>
         <Divider space={3} />
-        <ContentButtons content={buttons} />
+       
       </>
     )}
   </Container>

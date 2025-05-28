@@ -50,7 +50,6 @@ export default {
   error: colors.red[500],
 
   white: colors.white,
-  background: `#f8f8f8`,
   contentBg: colors.white,
   headerBg: `transparent`,
   headerActiveBg: colors.white,

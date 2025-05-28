@@ -1,0 +1,23 @@
+.feature-block {
+  background-color: brown; /* base layer */
+  position: relative;
+  overflow: hidden;
+  z-index: 0; /* Ensure it's above anything lower */
+}
+
+.feature-block::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 140%;
+  top: -5%;
+  left: 0; /* changed from 60% to 0 for visibility */
+  z-index: 1; /* Put it above brown background */
+  border-radius: 30px;
+  transform: skew(23deg, 0deg) rotate(-10deg);
+  background: radial-gradient(circle, #0a836d 0%, #0a836d 100%);
+  background-size: 100%;
+  background-position: center bottom;
+  opacity: 1;
+  pointer-events: none; /* Optional */
+}
